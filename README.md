@@ -1,12 +1,5 @@
 Documentação
 
-# API de Filmes com Cache Local (Flask + PostgreSQL)
-
-## Descrição
-Esta aplicação é uma API RESTful desenvolvida com Flask que permite buscar, listar, remover e armazenar dados de filmes. Ela utiliza PostgreSQL como banco de dados local para armazenar filmes previamente consultados, funcionando como uma camada de cache. Se um filme não for encontrado localmente, a aplicação consulta a API externa OMDb (Open Movie Database) e salva o resultado.
-
----
-
 ## Tecnologias Utilizadas
 - Python 3
 - Flask
